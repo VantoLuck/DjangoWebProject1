@@ -20,4 +20,5 @@ urlpatterns = [
     
     url(r'^webexample/', include('webexample.urls')),
     url(r'^', include('MainApp.urls')),
+    url(r'^news', include('news.urls')),
 ]

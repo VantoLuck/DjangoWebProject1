@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     # Add your apps here to enable them
     'MainApp',
     'webexample',
+    'news',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
