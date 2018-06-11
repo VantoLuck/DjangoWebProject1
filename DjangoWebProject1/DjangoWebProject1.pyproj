@@ -45,9 +45,11 @@
     <Compile Include="DjangoWebProject1\wsgi.py" />
     <Compile Include="news\admin.py" />
     <Compile Include="news\apps.py" />
+    <Compile Include="news\migrations\0001_initial.py" />
     <Compile Include="news\migrations\__init__.py" />
     <Compile Include="news\models.py" />
     <Compile Include="news\tests.py" />
+    <Compile Include="news\urls.py" />
     <Compile Include="news\views.py" />
     <Compile Include="news\__init__.py" />
     <Compile Include="webexample\admin.py" />
@@ -64,12 +66,11 @@
   <ItemGroup>
     <Content Include="MainApp\static\css\bootstrap.min.css" />
     <Content Include="MainApp\static\js\bootstrap.bundle.min.js" />
-    <Content Include="MainApp\templates\index.html" />
     <Content Include="MainApp\templates\MainApp\homepage.html" />
     <Content Include="MainApp\templates\MainApp\basic.html" />
     <Content Include="MainApp\templates\MainApp\includes\some_html.html" />
     <Content Include="MainApp\templates\MainApp\wrapper.html" />
-    <Content Include="news\templates\index.html" />
+    <Content Include="news\templates\news\posts.html" />
     <Content Include="requirements.txt" />
     <Content Include="webexample\templates\index.html" />
   </ItemGroup>
@@ -88,6 +89,7 @@
     <Folder Include="news\" />
     <Folder Include="news\migrations\" />
     <Folder Include="news\templates\" />
+    <Folder Include="news\templates\news\" />
     <Folder Include="webexample\" />
     <Folder Include="webexample\migrations\" />
     <Folder Include="webexample\templates\" />
