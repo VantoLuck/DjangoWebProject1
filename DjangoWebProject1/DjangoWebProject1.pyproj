@@ -71,6 +71,7 @@
     <Content Include="MainApp\templates\MainApp\includes\some_html.html" />
     <Content Include="MainApp\templates\MainApp\wrapper.html" />
     <Content Include="news\templates\news\posts.html" />
+    <Content Include="news\templates\news\post.html" />
     <Content Include="requirements.txt" />
     <Content Include="webexample\templates\index.html" />
   </ItemGroup>
